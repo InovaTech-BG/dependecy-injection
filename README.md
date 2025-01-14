@@ -1,2 +1,1 @@
-# domeo-core
-# domeo-dependecy-injection
+# dependecy-injection

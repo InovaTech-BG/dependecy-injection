@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@inovatechbg/base-ddd':
-        specifier: ^3.6.5
-        version: 3.6.5
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2
@@ -373,12 +370,6 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
-
-  '@inovatechbg/base-ddd@3.6.5':
-    resolution: {integrity: sha512-hKpUTxzNv6CFLKLuSwUV3kZuiOmaLkMw0dkW4PTg7I1tlrxQW49STUtPsPeYOyfkTXyqpCFoQBTyx6XYs033dg==}
-
-  '@inovatechbg/either@1.0.1':
-    resolution: {integrity: sha512-UYT5OoPFSfqnJwrpmgvo9GR3JMWgGGPhntSqXiCt4HzICm0WDvoqdCKp8MfgIskoj5m7jDlcS4SaHIrqu1w05Q==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -1001,9 +992,6 @@ packages:
     resolution: {integrity: sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==}
     engines: {node: '>=12'}
 
-  zod@3.24.1:
-    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
-
 snapshots:
 
   '@biomejs/biome@1.9.4':
@@ -1184,13 +1172,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.24.2':
     optional: true
-
-  '@inovatechbg/base-ddd@3.6.5':
-    dependencies:
-      '@inovatechbg/either': 1.0.1
-      zod: 3.24.1
-
-  '@inovatechbg/either@1.0.1': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -1788,5 +1769,3 @@ snapshots:
       ansi-styles: 6.2.1
       string-width: 5.1.2
       strip-ansi: 7.1.0
-
-  zod@3.24.1: {}
