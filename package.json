@@ -1,6 +1,6 @@
 {
 	"name": "@inovatechbg/dependecy-injection",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "./dist/index.js",
 	"files": ["./dist", "README.md"],
@@ -11,15 +11,19 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/InovaTech-BG/domeo-dependecy-injection.git"
+		"url": "git+https://github.com/InovaTech-BG/dependecy-injection.git"
 	},
-	"keywords": ["Domeo", "Core"],
+	"publishConfig": {
+		"access": "public"
+	},
+	"publisher": "InovaTech BG",
+	"keywords": ["Depedecy Injection", "Core"],
 	"author": "Brennon Gabriel de Oliveira",
 	"license": "MPL-2.0",
 	"bugs": {
-		"url": "https://github.com/InovaTech-BG/domeo-dependecy-injection/issues"
+		"url": "https://github.com/InovaTech-BG/dependecy-injection/issues"
 	},
-	"homepage": "https://github.com/InovaTech-BG/domeo-dependecy-injection#readme",
+	"homepage": "https://github.com/InovaTech-BG/dependecy-injection#readme",
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@types/node": "^22.10.5",
@@ -28,7 +32,6 @@
 		"vitest": "^2.1.8"
 	},
 	"dependencies": {
-		"@inovatechbg/base-ddd": "^3.6.5",
 		"reflect-metadata": "^0.2.2"
 	}
 }
