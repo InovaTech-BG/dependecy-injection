@@ -31,8 +31,9 @@ export class Container {
 			transient: () => {
 				reg.lifetime = Lifetime.TRANSIENT;
 			},
-			singleton: () => {
+			singleton: (instance?: T) => {
 				reg.lifetime = Lifetime.SINGLETON;
+				reg.instance = instance;
 			},
 			scoped: () => {
 				reg.lifetime = Lifetime.SCOPED;
